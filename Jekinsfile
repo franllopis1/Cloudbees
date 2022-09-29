@@ -1,12 +1,12 @@
 pipeline {
   agent any
   stages {
-    stage {
+    stage ("creacion") {
     
-      step {
+      steps {
 
     
-        echo "Funciona?"
+        sh 'echo "Funciona?"'
 
       }
 
