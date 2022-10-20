@@ -2,7 +2,7 @@
 @Library('Libreria') _
 
 pipeline {
-  agent {label 'principal'}
+  agent any
   stages {
     stage('Fluffy Build') {
       steps {
